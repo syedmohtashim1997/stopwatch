@@ -1,0 +1,50 @@
+body{
+    background-color:blueviolet;
+    color: cornsilk;
+    text-align: center;
+    margin-top: 100px;
+}
+h1{
+    display:inline-block;
+    width: 50px;
+    background-color: white;
+    color: black;
+    margin:5px;
+    height: 40px;
+  
+}
+.head{
+    width: 100px;
+    background-color: white;
+    color:blueviolet;
+    margin:5px;
+    height: auto;
+
+}
+.head:hover{
+    box-shadow: 2px 4px 5px blueviolet;
+    background-color: lightblue;
+    color: black;
+}
+button{
+    width: auto;
+    background-color: white;
+    background-color:red;
+    color:white;
+    margin:5px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color:lightgreen;
+    color: black;
+    box-shadow: 1px 2px 3px blueviolet;
+}
+@media (max-width:300px){
+    body{
+    float: left;
+    background-color: cadetblue;
+    }
+}
